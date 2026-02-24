@@ -32,7 +32,7 @@ export default function SurveyThree() {
           </View>
         </View>
 
-        <TouchableOpacity style={styles.button} onPress={() => router.replace('/(tabs)')} activeOpacity={0.9}>
+        <TouchableOpacity style={styles.button} onPress={() => router.push('/survey-4')} activeOpacity={0.9}>
           <Text style={styles.buttonText}>Lanjut</Text>
         </TouchableOpacity>
       </View>

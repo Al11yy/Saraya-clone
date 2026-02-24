@@ -78,7 +78,7 @@ export default function SignUp() {
         <TouchableOpacity style={styles.socialButton} activeOpacity={0.9}>
           <Image
             source={{
-              uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/120px-Google_%22G%22_logo.svg.png',
+              uri: 'https://image.similarpng.com/file/similarpng/original-picture/2020/06/Logo-google-icon-PNG.png',
             }}
             style={styles.socialIcon}
           />
@@ -119,14 +119,14 @@ const styles = StyleSheet.create({
     elevation: 5,
   },
   title: {
-    fontSize: 24,
-    color: '#6E6E73',
-    marginBottom: 14,
+    fontSize: 36,
+    color: '#6D6A6D',
+    marginBottom: 50,
     fontWeight: '400',
   },
   subtitle: {
     width: '100%',
-    fontSize: 16,
+    fontSize: 20,
     color: '#686868',
     marginBottom: 18,
   },

@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingHorizontal: 30,
-    paddingTop: 95,
+    paddingTop: 170,
     paddingBottom: 120,
   },
   top: {
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     elevation: 5,
   },
   brand: {
-    fontSize: 24,
+    fontSize: 36,
     letterSpacing: 1,
     color: '#151515',
     fontFamily: 'serif',
@@ -66,15 +66,15 @@ const styles = StyleSheet.create({
     marginTop: -36,
   },
   title: {
-    fontSize: 16,
+    fontSize: 30,
     color: '#181818',
+    width : '900',
     textAlign: 'center',
-    lineHeight: 22,
-    fontWeight: '600',
+    fontWeight: '500',
     marginBottom: 16,
   },
   desc: {
-    fontSize: 14,
+    fontSize: 15,
     color: '#6D6D6D',
     textAlign: 'center',
     lineHeight: 22,

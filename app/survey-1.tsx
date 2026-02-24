@@ -57,9 +57,10 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   question: {
-    fontSize: 18,
+    fontSize: 20,
     color: '#656565',
     marginBottom: 16,
+    marginTop:100,
     paddingHorizontal: 6,
   },
   input: {

@@ -66,7 +66,7 @@ export default function SignIn() {
         <TouchableOpacity style={styles.socialButton} activeOpacity={0.9}>
           <Image
             source={{
-              uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/120px-Google_%22G%22_logo.svg.png',
+              uri: 'https://image.similarpng.com/file/similarpng/original-picture/2020/06/Logo-google-icon-PNG.png',
             }}
             style={styles.socialIcon}
           />
@@ -76,7 +76,7 @@ export default function SignIn() {
         <TouchableOpacity style={styles.socialButton} activeOpacity={0.9}>
           <Image
             source={{
-              uri: 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png',
+              uri: 'https://images.icon-icons.com/1043/PNG/512/social_media_icons_flat_shadow_set_512x512_0000_facebook_icon-icons.com_76449.png',
             }}
             style={styles.socialIcon}
           />
@@ -117,14 +117,14 @@ const styles = StyleSheet.create({
     elevation: 5,
   },
   title: {
-    fontSize: 24,
-    color: '#6E6E73',
-    marginBottom: 14,
+    fontSize: 36,
+    color: '#6D6A6D',
+    marginBottom: 50,
     fontWeight: '400',
   },
   subtitle: {
     width: '100%',
-    fontSize: 16,
+    fontSize: 20,
     color: '#686868',
     marginBottom: 18,
   },
@@ -191,7 +191,7 @@ const styles = StyleSheet.create({
   },
   primaryButtonText: {
     color: '#fff',
-    fontSize: 16,
+    fontSize: 17,
     fontWeight: '500',
   },
   orText: {
